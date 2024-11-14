@@ -1,0 +1,178 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+
+  color: #f5f6f7;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+.main {
+  width: 100vw;
+  height: 80vh;
+  background-color: #1f2937;
+}
+.hero {
+  width: 70vw;
+  height: 100%;
+  margin: auto;
+  padding-top: 1.5rem;
+}
+.head {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+.head a {
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+.header-link a {
+  margin-left: 2rem;
+}
+#logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+/* Body */
+.body {
+  height: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5rem;
+}
+.body .img {
+  width: 50%;
+  height: 80%;
+  margin-left: 4rem;
+  background-color: #3a4657;
+  text-align: center;
+}
+
+.hero-text {
+  flex: 1;
+  padding: 2.5rem;
+}
+#main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+#sub-text {
+  font-size: 24px;
+}
+button {
+  background-color: #3882f6;
+  border: none;
+  padding: 12px;
+  width: 200px;
+  border-radius: 6px;
+  font-size: x-large;
+}
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img p {
+  font-size: 24px;
+}
+/* Information Section */
+.information {
+  height: auto;
+}
+.information h2 {
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.information-box {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-around;
+  margin-bottom: 4rem;
+}
+.information-img {
+  height: 200px;
+  width: 200px;
+
+  border: 6px solid #3882f6;
+  border-radius: 1.5rem;
+}
+.information-container {
+  width: 200px;
+  height: auto;
+}
+.information-container p {
+  color: #3a4657;
+  font-size: large;
+  text-align: center;
+}
+/* Quote */
+.quote {
+  height: 500px;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.quote-text {
+  width: 100vh;
+}
+.quote-text p {
+  text-align: end;
+  font-style: normal;
+  font-weight: 500;
+  margin-right: 4rem;
+}
+
+/* Contact */
+.contact {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-content {
+  height: 200px;
+  width: 70%;
+  background-color: #3882f6;
+  border-radius: 1.25rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-text h3 {
+  font-size: 36px;
+  margin-bottom: 0;
+}
+.contact-text p {
+  font-size: 24px;
+  margin-top: 0;
+}
+.contact-content button {
+  border: 2px solid white;
+  border-radius: 6px;
+}
+/* Footer */
+.footer {
+  height: 200px;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p {
+  font-size: 24px;
+}
